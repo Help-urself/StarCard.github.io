@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50%;
+  border: 1px ;}
+
+/* Desktop styles */
+@media only screen and (max-width: 500px) {
+  .container {
+    display: block;
+  }
+
+  .left,
+  .right {
+    width: 48%;
+  }
+}
+
+.title{
+    margin-top: 5%;
+    margin-left: 100px;
+    font-size: 3.9em;
+    color: red;
+}
+
+.del{
+    width: 100%;
+    height: 1px;
+    background-color: #444;
+}
+
+.img{
+    margin-left: 20%;
+    margin-top: 59px;
+    width: 300px;
+}
+
+.El{
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 27.0%;
+    font-size: 4.9em;
+    color: rgb(254, 0, 0);
+
+}
+
+.icon{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inconsolata", sans-serif;
+    background-size: cover;
+    background: url(background_image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0 auto; width: 100%;
+    object-fit: cover;
+      position: sticky;
+      position: -webkit-sticky;
+      background-color: white;
+      color: #444;
+      cursor:pointer;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.1s;
+      top:0;
+      overflow-x:hidden;
+  }
+  
+.fone{
+    backdrop-filter: blur(10px);
+    position: sticky;
+    height: 1000vh;
+}
