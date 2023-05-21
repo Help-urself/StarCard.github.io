@@ -68,7 +68,6 @@ body{
     object-fit: cover;
       position: sticky;
       position: -webkit-sticky;
-      background-color: white;
       color: #444;
       cursor:pointer;
       border: none;
